@@ -35,7 +35,7 @@ It helps you create, manage, and organize notes efficiently, with features like 
 - [LinkedIn](https://www.linkedin.com/in/yukta-shah/)  
 
 ## 🌐 Live Link
-[Live Demo](https://your-live-link.netlify.app/)
+[Live Demo][https://yukta-react-notes-app.netlify.app/]
 
 ## 💻 Run Locally
 Clone the project by adding the following command in the terminal.
