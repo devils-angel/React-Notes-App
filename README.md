@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Yukta's Notes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Yukta’s Notes is a modern note-taking web application built with **React**, **TailwindCSS**, and **Context API**.  
+It helps you create, manage, and organize notes efficiently, with features like pinned notes, starred notes, archived notes, and a bin with permanent delete functionality.
 
-## Available Scripts
+## 📜 List of Features
 
-In the project directory, you can run:
+### 🏠 Home Page
+- Displays all notes with pinned notes appearing at the top.
+- Allows creating, editing, and deleting notes.
+- Notes can be pinned, starred, archived, or moved to the bin.
 
-### `npm start`
+### 📌 Pinned Notes
+- Notes marked as pinned will always appear at the top in the Home page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ⭐ Important Notes
+- Contains all starred notes for quick access.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🗑 Bin
+- Stores all deleted notes temporarily.
+- Click delete again to permanently remove a note (confirmation prompt included).
 
-### `npm test`
+### 🗄 Archive
+- Contains all archived notes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Tech Stack
+- **ReactJS** – UI and state handling
+- **TailwindCSS** – Styling
+- **Context API** – Global state management
+- **Google Material Icons** – Icons
 
-### `npm run build`
+## ✍️ Author
+**Yukta Shah**  
+- [GitHub](https://github.com/devils-angel)  
+- [LinkedIn](https://www.linkedin.com/in/yukta-shah/)  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🌐 Live Link
+[Live Demo](https://your-live-link.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 Run Locally
+Clone the project by adding the following command in the terminal.
+Make sure your have git installed and added to path.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the project:
+```bash
+git clone https://github.com/devils-angel/React-Notes-App.git
+```
+Go to the project directory
 
-### `npm run eject`
+```bash
+  cd reactnotes
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  npm start
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐ Enjoyed exploring my work? Show some love with a [star](https://github.com/devils-angel/devils-angel)! ✨
