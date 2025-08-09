@@ -1,13 +1,14 @@
 import Navbar from "../../components/Navbar";
+import Sidebar from "../../components/Sidebar";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <div >
-        <h1>Welcome to Yukta's Notes</h1>
-        <p>This is the home page where you can find all your notes.</p>
-      </div>
+      <main>
+        <Sidebar />
+      </main>
+
     </>
   );
 };

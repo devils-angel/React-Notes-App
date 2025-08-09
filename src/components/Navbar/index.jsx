@@ -3,9 +3,11 @@ import logo from '../../logo.svg';
 
 export const Navbar = () => {
   return (
-    <header className="flex items-center bg-gray-800 text-white p-4">
-      {/* <img src={logo} alt="logo" /> */}
-      <h1 className="text-blue-500">Yukta's notes</h1>
+    <header className="flex p-4 items-center justify-left bg-gray-800">
+    <div className="w-16 h-16">
+      <img src={logo} className="w-full h-full" alt="logo" />
+    </div>
+      <h1 className="text-white text-4xl">YUKTA'S NOTES</h1>
     </header>
   );
 };
